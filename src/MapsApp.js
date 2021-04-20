@@ -1,9 +1,10 @@
 import React from 'react'
+import { MapPage } from './pages/MapPage'
 
 export const MapsApp = () => {
   return (
     <div>
-      <h1>Hello Maps</h1>
+      <MapPage/>
     </div>
   )
 }
